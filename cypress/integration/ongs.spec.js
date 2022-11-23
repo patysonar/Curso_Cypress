@@ -3,8 +3,8 @@
 
 describe ('ongs', () => {
     it('devem poder realizar cadastro', ()=>{
-        cy.visit('https://new-dev.seedz.ag/register')
-        //cy.visit('http://localhost:3000/register')
+        
+        cy.visit('http://localhost:3000/register')
         // cy.get - buscar um elemeto
         // .type - insere um texto
         cy.get('[placeholder="Digite seu nome"]').type('Dogs queridos - Teste QA')
@@ -30,7 +30,7 @@ describe ('ongs', () => {
 
 
     it('informar código PIN', ()=>{
-       //cy.visit('https://new-dev.seedz.ag/register/pincode')
+       //cy.visit('http://localhost:3000/register/pincode')
         
       // cy.get('[class="form-control"]').type ('2345')
        //cy.get('.buton').click()
